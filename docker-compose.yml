@@ -1,0 +1,15 @@
+﻿version: '3.4'
+
+services:
+  interactiveuserguide:
+    image: ${DOCKER_REGISTRY-}interactiveuserguide
+    build:
+      context: .
+      dockerfile: InteractiveUserGuide/Dockerfile
+    dataapidocker:
+    image: ${DOCKER_REGISTRY-}dataapidocker
+    build:
+    context: .
+    dockerfile: DataAPIDocker/Dockerfile
+    environment:
+    – DB_PW

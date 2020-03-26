@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.6">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\InteractiveAmplifierModelSnapshot.cs" />
+    <Compile Remove="Migrations\20190626154542_initial.Designer.cs" />
+    <Compile Remove="Migrations\AmpContextModelSnapshot.cs" />
+    <Compile Remove="Migrations\20190717105549_initial.Designer.cs" />
+    <Compile Remove="Migrations\20190717105549_initial.cs" />
+    <Compile Remove="Migrations\20190626154542_initial.cs" />
+    <Compile Remove="Migrations\Configuration.cs" />
+    <Compile Remove="Migrations\20190724120452_Initial.cs" />
+    <Compile Remove="Migrations\20190731105202_SeedDatabase.cs" />
+    <Compile Remove="Migrations\MarshallContextModelSnapshot.cs" />
+    <Compile Remove="Migrations\20190726093836_AddElementDetails.Designer.cs" />
+    <Compile Remove="Migrations\20190731105202_SeedDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20190726093836_AddElementDetails.cs" />
+    <Compile Remove="Migrations\20190726092302_ElementDetails.Designer.cs" />
+    <Compile Remove="Migrations\20190731111252_SeedDatabase.Designer.cs" />
+    <Compile Remove="Migrations\20190724120452_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190726092302_ElementDetails.cs" />
+    <Compile Remove="Migrations\20190731111252_SeedDatabase.cs" />
+    <Compile Remove="Migrations\20190724120452_Initial.Designer.cs" />
+    <Compile Remove="Seed.cs" />
+    <Compile Remove="CreateDatabaseIfNoneExists.cs" />
+    <Compile Remove="Migrations\20190731133847_Initial.cs" />
+    <Compile Remove="Migrations\20190731133847_Initial.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+    <Folder Include="Information\" />
+    <Folder Include="SQL\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InteractiveDomai\InteractiveDomain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Migrations\app.config" />
+  </ItemGroup>
+</Project>

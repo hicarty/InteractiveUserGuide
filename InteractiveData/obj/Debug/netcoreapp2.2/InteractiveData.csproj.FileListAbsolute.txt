@@ -1,0 +1,15 @@
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\bin\Debug\netcoreapp2.2\InteractiveData.deps.json
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\bin\Debug\netcoreapp2.2\InteractiveData.runtimeconfig.json
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\bin\Debug\netcoreapp2.2\InteractiveData.runtimeconfig.dev.json
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\bin\Debug\netcoreapp2.2\InteractiveData.dll
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\bin\Debug\netcoreapp2.2\InteractiveData.pdb
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\bin\Debug\netcoreapp2.2\InteractiveDomain.dll
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\bin\Debug\netcoreapp2.2\InteractiveDomain.pdb
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\obj\Debug\netcoreapp2.2\InteractiveData.csprojAssemblyReference.cache
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\obj\Debug\netcoreapp2.2\InteractiveData.csproj.CoreCompileInputs.cache
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\obj\Debug\netcoreapp2.2\InteractiveData.AssemblyInfoInputs.cache
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\obj\Debug\netcoreapp2.2\InteractiveData.AssemblyInfo.cs
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\obj\Debug\netcoreapp2.2\InteractiveData.csproj.CopyComplete
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\obj\Debug\netcoreapp2.2\InteractiveData.dll
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\obj\Debug\netcoreapp2.2\InteractiveData.pdb
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveData\obj\Debug\netcoreapp2.2\InteractiveData.genruntimeconfig.cache

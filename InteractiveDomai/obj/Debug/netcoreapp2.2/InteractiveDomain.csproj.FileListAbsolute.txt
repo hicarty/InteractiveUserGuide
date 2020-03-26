@@ -1,0 +1,12 @@
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveDomai\bin\Debug\netcoreapp2.2\InteractiveDomain.deps.json
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveDomai\bin\Debug\netcoreapp2.2\InteractiveDomain.runtimeconfig.json
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveDomai\bin\Debug\netcoreapp2.2\InteractiveDomain.runtimeconfig.dev.json
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveDomai\bin\Debug\netcoreapp2.2\InteractiveDomain.dll
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveDomai\bin\Debug\netcoreapp2.2\InteractiveDomain.pdb
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveDomai\obj\Debug\netcoreapp2.2\InteractiveDomain.csprojAssemblyReference.cache
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveDomai\obj\Debug\netcoreapp2.2\InteractiveDomain.csproj.CoreCompileInputs.cache
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveDomai\obj\Debug\netcoreapp2.2\InteractiveDomain.AssemblyInfoInputs.cache
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveDomai\obj\Debug\netcoreapp2.2\InteractiveDomain.AssemblyInfo.cs
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveDomai\obj\Debug\netcoreapp2.2\InteractiveDomain.dll
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveDomai\obj\Debug\netcoreapp2.2\InteractiveDomain.pdb
+C:\Users\Haven\Projects\Marshall_Interactive_User_Guide\VSTS Project\InteractiveDomai\obj\Debug\netcoreapp2.2\InteractiveDomain.genruntimeconfig.cache

@@ -1,0 +1,59 @@
+﻿In Domain project in Solution
+
+DatabaseContext.cs
+
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+{
+    optionsBuilder
+        .UseSqlServer(
+        "Server=localhost,1433; Database=InteractiveAmplifiers;User=SA; Password=MyPassword123");
+}
+
+or for single project solution
+
+appsettings.json
+
+"ConnectionStrings": {
+    "DatabaseContext": "Server=localhost,1433; Database=InteractiveAmplifiers;User=SA; Password=MyPassword123"
+},
+
+// We dont want this run for dotnet ef commands
+protected override void OnModelCreating(ModelBuilder modelBuilder)
+{
+    DbInitializer.SeedAsync(this).GetAwaiter().GetResult();
+}
+// So instead of putting it in DatabaseContext, we put it in Program.cs and add a service in Startup.cs
+
+Program.cs
+
+public static void Main(string[] args)
+{
+    var host = CreateWebHost(args);
+
+    using (var scope = host.Services.CreateScope())
+    {
+        var services = scope.ServiceProvider;
+        try
+        {
+            var context = services.GetRequiredService<MarshallContext>();
+            DbInitializer.SeedAsync(context).GetAwaiter().GetResult();
+        }
+        catch (Exception ex)
+        {
+            var logger = services.GetRequiredService<ILogger<Program>>();
+            logger.LogError(ex, "An error occurred while seeding the database.");
+        }
+    }
+
+    host.Run();
+}
+
+public static IWebHost CreateWebHost(string[] args) =>
+    WebHost.CreateDefaultBuilder(args)
+        .UseStartup<Startup>()
+        .UseIISIntegration()
+        .Build();
+
+Startup.cs
+
+services.AddDbContext<MarshallContext>(ServiceLifetime.Scoped);
